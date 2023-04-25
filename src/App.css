@@ -1,0 +1,694 @@
+
+
+.root-body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient(116.82deg, #ADD8E6 0%, #FFFFFF 100%);
+   font-family: 'Poppins';
+}
+
+.main-body{
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.rectangles, .vectors{
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.vectors div{
+  display: inline-block;
+}
+
+.rectangles{
+  display: flex;
+  flex-direction: column;
+}
+
+.rectangle-1{
+  width: 65%;
+  margin: 0 auto;
+}
+
+.rectangle-2{
+  width: 65%;
+  margin: 16px auto 0 auto;
+  padding: 16px;
+}
+
+.city-input{
+  width: 60%;
+  color: black;
+  border: 1px solid;
+  padding: 22px 16px 22px 16px;
+}
+
+::placeholder{
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+} 
+
+.input-button{
+  width: 35%;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  border: none;
+  background-color: #4B77BE;
+  padding: 19px;
+}
+
+.text-1{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+color: #4B77BE;
+padding-top: 30px;
+}
+
+.text-2{
+  color: #3F3D56;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  margin-top: 24px;
+}
+
+.text-3{
+  color: #4B77BE;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin-top: 24px;
+  padding-bottom: 20px;
+}
+
+.mob-out{
+  position: absolute;
+  left: 120px;
+}
+
+.mob{
+  position: absolute;
+  top: 5.7px;
+  left: 127.8px;
+}
+
+.cloud{
+  position: absolute;
+  top: 75px;
+  left: 199.5px;
+}
+
+.cloud-1{
+  position: absolute;
+  top: 112px;
+  left: 115px;
+}
+
+.cloud-s{
+  position: absolute;
+  top: 143px;
+  left: 199.5px;
+}
+ 
+.bird{
+  position: absolute;
+  top: 90px;
+  left: 165px
+}
+
+.bird-1{
+  position: absolute;
+  top: 120px;
+  left: 230px
+}
+
+.bird-2{
+  position: absolute;
+  top: 150px;
+  left: 175px
+}
+
+.sun{
+  position: absolute;
+  top: 53px;
+  left: 200px;
+}
+
+.circle{
+  position: absolute;
+  top: 45px;
+  left: 139px
+}
+
+.leaf{
+  position: absolute;
+  top: 113px;
+  left: 40px;
+}
+
+.midrib{
+  position: absolute;
+  top: 110px;
+  left: 40px
+}
+
+.vein{
+  position: absolute;
+  top: 135px;
+  left: 94px
+}
+
+.vein-1{
+  position: absolute;
+  top: 130px;
+  left: 63px
+}
+
+.vein-2{
+  position: absolute;
+  top: 155px;
+  left: 54px
+}
+
+.leaf-1{
+  position: absolute;
+  top: 106px;
+  left: 90px
+}
+
+.midrib-1{
+  position: absolute;
+  top: 102px;
+  left: 98px
+}
+
+.vein-3{
+  position: absolute;
+  top: 195px;
+  left: 100px
+}
+
+.vein-4{
+  position: absolute;
+  top: 166.7px;
+  left: 90px
+}
+
+.message{
+  position: absolute;
+  top:230px;
+  left: 0px;
+}
+
+.message-tile{
+  position: absolute;
+  top:243px;
+  left: 30px;
+}
+
+.message-tile-1{
+  position: absolute;
+  top:253px;
+  left: 30px;
+}
+
+.ground{
+  position: absolute;
+  top: 290px;
+  left: 165px;
+}
+
+.line{
+  position: absolute;
+  top: 404px;
+  left: 335px
+}
+
+.leaf-2{
+  position: absolute;
+  top: 335px;
+  left: 500px
+}
+
+.midrib-2{
+  position: absolute;
+  top: 335px;
+  left: 503px
+}
+
+.vein-5{
+  position: absolute;
+  top: 350px;
+  left: 510px
+}
+
+.vein-6{
+  position: absolute;
+  top: 360px;
+  left: 517px
+} 
+
+.vein-7{
+  position: absolute;
+  top: 369px;
+  left: 505px
+}
+
+.leaf-3{
+  position: absolute;
+  top: 356px;
+  left: 465px
+}
+
+.midrib-3{
+  position: absolute;
+  top: 357px;
+  left: 465px
+}
+
+.vein-8{
+  position: absolute;
+  top: 365px;
+  left: 479px
+}
+
+.vein-9{
+  position: absolute;
+  top: 365px;
+  left: 495px
+}
+
+.vein-10{
+  position: absolute;
+  top: 384px;
+  left: 487px
+}
+
+.shoe{
+  position: absolute;
+  top: 395px;
+  left: 410px
+}
+
+.shoe-1{
+  position: absolute;
+  top: 390px;
+  left: 445px
+}
+
+.leg{
+  position: absolute;
+  top: 315px;
+  left: 416px
+}
+
+.leg-1{
+  position: absolute;
+  top: 315px;
+  left: 445px
+}
+
+.hand{
+  position: absolute;
+  top: 223px;
+  left: 402px
+}
+
+.hand-1{
+  position: absolute;
+  top: 220px;
+  left: 467px
+}
+
+.trouser{
+  position: absolute;
+  top: 265px;
+  left: 412px
+}
+
+.shirt{
+  position: absolute;
+  top: 187px;
+  left: 412px
+}
+
+.sleeve{
+  position: absolute;
+  top: 201.2px;
+  left: 406.7px
+}
+
+.sleeve-1{
+  position: absolute;
+  top: 199px;
+  left: 468px
+}
+
+.head{
+  position: absolute;
+  top: 153px;
+  left: 426px
+}
+
+.hair{
+  position: absolute;
+  top: 148px;
+  left: 428.8px
+}
+
+.loading{
+  width: 10%;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+}
+
+.loading img{
+  display: block;
+  margin: 0px auto;
+}
+
+
+@media (min-width: 370px) and (max-width: 475px){
+
+  .root-body{   
+    background: linear-gradient(167.95deg, #ADD8E6 0%, #FFFFFF 100%);
+  }
+
+  .main-body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    paddging: 16px;
+  }
+
+  .rectangles, .vectors{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .rectangles{
+    padding: 16px;
+  }
+
+  .rectangle-1{
+    width: 100%;
+    margin: 16px auto;
+  }
+  
+  .rectangle-2{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .city-input{
+    color: black;
+    border: 1px solid;
+    padding: 11px 8px;
+  
+  }
+  
+  ::placeholder{
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  } 
+  
+  .input-button{
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    border: none;
+    background-color: #4B77BE;
+    padding: 14px 12px 12px 12px;
+  }
+
+  .mob-out{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+  }
+  
+  .mob{
+    position: absolute;
+    top: 66px;
+    left: 105px;
+  }
+
+  .leaf{
+    position: absolute;
+    top: 113px;
+    left: 57px;
+
+  }
+
+  .midrib{
+    position: absolute;
+    top: 117px;
+    left: 57px
+  }
+  
+  .vein{
+    position: absolute;
+    top: 130px;
+    left: 65px
+  }
+  
+  .vein-1{
+    position: absolute;
+    top: 120px;
+    left: 67px
+  }
+  
+  .vein-2{
+    position: absolute;
+    top: 125px;
+    left: 90px
+  }
+  
+  .leaf-1{
+    position: absolute;
+    top: 114px;
+    left: 80px
+  }
+  
+  .midrib-1{
+    position: absolute;
+    top: 114px;
+    left: 84px
+  }
+  
+  .vein-3{
+    position: absolute;
+    top: 142px;
+    left: 85px
+  }
+  
+  .vein-4{
+    position: absolute;
+    top: 134px;
+    left: 80px
+  }
+
+  .message{
+    position: absolute;
+    top:160px;
+    left: 55px;
+  }
+  
+  .message-tile{
+    position: absolute;
+    top:165px;
+    left: 65px;
+  }
+  
+  .message-tile-1{
+    position: absolute;
+    top:169px;
+    left: 65px;
+  }
+  
+  .ground{
+    position: absolute;
+    top: 186px;
+    left: 122px;
+  }
+
+  .cloud{
+    position: absolute;
+    top: 95px;
+    left: 135px;
+  }
+  
+  .cloud-1{
+    position: absolute;
+    top: 110px;
+    left: 98px;
+  }
+  
+  .cloud-s{
+    position: absolute;
+    top: 123px;
+    left: 136px;
+  }
+   
+  .bird{
+    position: absolute;
+    top: 102px;
+    left: 120px
+  }
+  
+  .bird-1{
+    position: absolute;
+    top: 113px;
+    left: 150px
+  }
+  
+  .bird-2{
+    position: absolute;
+    top: 124px;
+    left: 125px
+  }
+  
+  .sun{
+    position: absolute;
+    top: 85px;
+    left: 135px;
+  }
+  
+  .circle{
+    position: absolute;
+    top: 82px;
+    left: 112px
+  }
+
+  .line{
+    position: absolute;
+    top: 250px;
+    left: 190px
+  }
+  
+  .leaf-2{
+    position: absolute;
+    top: 223px;
+    left: 300px
+  }
+
+  .leaf-3{
+    position: absolute;
+    top: 230px;
+    left: 285px
+  }
+
+  
+.shoe{
+  position: absolute;
+  top: 246px;
+  left: 263px
+}
+
+.shoe-1{
+  position: absolute;
+  top: 244px;
+  left: 277px
+}
+
+.leg{
+  position: absolute;
+  top: 214px;
+  left: 265px
+}
+
+.leg-1{
+  position: absolute;
+  top: 214px;
+  left: 277px
+}
+
+.hand{
+  position: absolute;
+  top: 178px;
+  left: 259px
+}
+
+.hand-1{
+  position: absolute;
+  top: 177px;
+  left: 285px
+}
+
+.trouser{
+  position: absolute;
+  top: 195px;
+  left: 263.2px
+}
+
+.shirt{
+  position: absolute;
+  top: 163px;
+  left: 263px
+}
+
+.sleeve{
+  position: absolute;
+  top: 169px;
+  left: 260.5px
+}
+
+.sleeve-1{
+  position: absolute;
+  top: 168px;
+  left: 285px
+}
+
+.head{
+  position: absolute;
+  top: 149px;
+  left: 269.5px
+}
+
+.hair{
+  position: absolute;
+  top: 147px;
+  left: 271px
+}
+
+.loading{
+  width: 20%;
+  margin: 5px auto 10px auto;
+  padding: 5px;
+}
+
+.loading img{
+  display: block;
+  margin: 0px auto;
+}
+
+
+
+
+
+
+}
