@@ -9,7 +9,7 @@ function MainPage(){
 
 
     const api = {
-        key: "0d2b66cb894822ffb44a9297827e8b85",
+        key: "f4ef3475a69b7fcded53cdcbe6f3b5a2",
         base: "https://api.openweathermap.org/data/2.5/" 
     }
 
@@ -48,8 +48,10 @@ function MainPage(){
 
                         ) : (
                             <div>
-                                <p className='text-2 text-center'>24<sup>o</sup>C</p>
-                                <p className='text-3 text-center'>Visakhapatnam</p>
+                                <p className='text-2 text-center'><sup>o</sup>C</p>
+                                <p className='text-3 text-center'>Location</p>
+                                <h5 className='text-4 text-center'>{weather.weather[0].description}<img src={"https://openweathermap.org/img/wn/" + weather.weather[0].icon + ".png"} /></h5>
+                                <h5 className='text-5 text-center'>Humidity: {weather.main.humidity} &nbsp;&nbsp; Pressure: {weather.main.pressure}</h5>
                             </div>
                         )
                         }
