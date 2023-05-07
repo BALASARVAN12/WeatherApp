@@ -44,14 +44,14 @@ function MainPage(){
                             <div>
                                 <p className='text-2 text-center'>{Math.round(weather.main.temp)}<sup>o</sup>C</p>
                                 <p className='text-3 text-center'>{weather.name}</p>
+                                <h5 className='text-4 text-center'>{weather.weather[0].description}<img src={"https://openweathermap.org/img/wn/" + weather.weather[0].icon + ".png"} /></h5>
+                                <h5 className='text-5 text-center'>Humidity: {weather.main.humidity}&nbsp;&nbsp; Pressure: {weather.main.pressure}</h5>
                             </div>
 
                         ) : (
                             <div>
                                 <p className='text-2 text-center'><sup>o</sup>C</p>
                                 <p className='text-3 text-center'>Location</p>
-                                <h5 className='text-4 text-center'>{weather.weather[0].description}<img src={"https://openweathermap.org/img/wn/" + weather.weather[0].icon + ".png"} /></h5>
-                                <h5 className='text-5 text-center'>Humidity: {weather.main.humidity} &nbsp;&nbsp; Pressure: {weather.main.pressure}</h5>
                             </div>
                         )
                         }
