@@ -98,6 +98,14 @@ padding-top: 30px;
   padding-bottom: 20px;
 }
 
+.text-5{
+  color: #4B77BE;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 10px;
+
+}
+
 .mob-out{
   position: absolute;
   left: 120px;
